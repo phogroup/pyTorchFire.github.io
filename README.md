@@ -4,7 +4,7 @@
 <p align="center">
 <img src="/assets/logo.jpg" width="150" height="100" />
 </p>
-
+<img src="/assets/logo.jpg" />
 Add description
 
 ### **Team Members** 
