@@ -2,7 +2,7 @@
 
 
 <p align="center">
-<img src="/assets/siam-logo.jpg" width="150" height="100" />
+<img src="/assets/logo.jpg" width="150" height="100" />
 </p>
 
 Add description
