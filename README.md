@@ -36,3 +36,8 @@ TorchFire strategically synergizes decades of developing machine learning librar
 ### **Summer school opportunities**
 
 * TBA
+
+### **Applications**
+
+* Forward and inverse seismic wave propagation
+* Forward and inverse problems associated with MHD
