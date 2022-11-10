@@ -8,7 +8,6 @@ TorchFire strategically synergizes decades of developing machine learning librar
 
 ### **Team Members** 
 
-
 * [Tan Bui-Thanh (lead PI, UT Austin)](https://users.oden.utexas.edu/~tanbui/) [(Email)](mailto:tanbui@oden.utexas.edu)
 * Clint Dawson (UT Austin)
 * Michael Sacks (UT Austin)
