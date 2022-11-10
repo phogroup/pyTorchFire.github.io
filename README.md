@@ -10,7 +10,7 @@ Add description
 ### **Team Members** 
 
 
-* [Ran Bui-Thanh (lead PI, UT Austin)](https://users.oden.utexas.edu/~tanbui/) [(Email)](mailto:tanbui@oden.utexas.edu)
+* [Tan Bui-Thanh (lead PI, UT Austin)](https://users.oden.utexas.edu/~tanbui/) [(Email)](mailto:tanbui@oden.utexas.edu)
 * 
 
 
