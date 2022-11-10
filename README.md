@@ -10,34 +10,26 @@ Add description
 ### **Team Members** 
 
 
-* Chair: [Stefan Wild](https://wildsm.github.io/) [(Email)](mailto:wild@anl.gov)
-* Vice Chair: [Jeff Hammond](https://github.com/jeffhammond) [(Email)](mailto:jeff.science@gmail.com)
-* Program Director: [Judy Hill](https://people.llnl.gov/hill134) [(Email)](mailto:judy@llnl.gov)
-* Secretary: [Tan Bui-Thanh](https://users.oden.utexas.edu/~tanbui/) [(Email)](mailto:tanbui@oden.utexas.edu)
+* [Ran Bui-Thanh (lead PI, UT Austin)](https://users.oden.utexas.edu/~tanbui/) [(Email)](mailto:tanbui@oden.utexas.edu)
+* 
+
 
 ### **Postdoctoral Researchers**
 
-* Chair: [Stefan Wild](https://wildsm.github.io/) [(Email)](mailto:wild@anl.gov)
-* Vice Chair: [Jeff Hammond](https://github.com/jeffhammond) [(Email)](mailto:jeff.science@gmail.com)
-* Program Director: [Judy Hill](https://people.llnl.gov/hill134) [(Email)](mailto:judy@llnl.gov)
-* Secretary: [Tan Bui-Thanh](https://users.oden.utexas.edu/~tanbui/) [(Email)](mailto:tanbui@oden.utexas.edu)
+* TBA
+
 
 
 ### **Graduate Researchers**
 
-* Chair: [Stefan Wild](https://wildsm.github.io/) [(Email)](mailto:wild@anl.gov)
-* Vice Chair: [Jeff Hammond](https://github.com/jeffhammond) [(Email)](mailto:jeff.science@gmail.com)
-* Program Director: [Judy Hill](https://people.llnl.gov/hill134) [(Email)](mailto:judy@llnl.gov)
-* Secretary: [Tan Bui-Thanh](https://users.oden.utexas.edu/~tanbui/) [(Email)](mailto:tanbui@oden.utexas.edu)
+* TBA
 
 
 ### **Undergraduate Researchers**
 
-* Chair: [Stefan Wild](https://wildsm.github.io/) [(Email)](mailto:wild@anl.gov)
-* Vice Chair: [Jeff Hammond](https://github.com/jeffhammond) [(Email)](mailto:jeff.science@gmail.com)
-* Program Director: [Judy Hill](https://people.llnl.gov/hill134) [(Email)](mailto:judy@llnl.gov)
-* Secretary: [Tan Bui-Thanh](https://users.oden.utexas.edu/~tanbui/) [(Email)](mailto:tanbui@oden.utexas.edu)
+* TBA
 
 
 ### **Summer school opportunities**
 
+* TBA
