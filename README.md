@@ -2,7 +2,7 @@
 
 
 <p align="center">
-<img src="assets\logo.jpg" width="150" height="100" />
+<img src="assets\logo.jpg" width="200" height="200" />
 </p>
 
 Add description
