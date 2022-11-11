@@ -8,13 +8,13 @@ TorchFire strategically synergizes decades of developing machine learning librar
 
 ### **Team Members** 
 
-* [Tan Bui-Thanh (lead PI, UT Austin)](https://users.oden.utexas.edu/~tanbui/) [(Email)](mailto:tanbui@oden.utexas.edu)
-* Clint Dawson (UT Austin)
-* Michael Sacks (UT Austin)
-* Ofodike Ezekoye (UT Austin)
-* Robert Kirby (Baylor University)
-* David Ham (Imperial College London)
-* John Shadid (University of New Mexico)
+* [Tan Bui-Thanh (lead PI, UT Austin)](https://users.oden.utexas.edu/~tanbui/)[(Email)](mailto:tanbui@oden.utexas.edu)
+* Clint Dawson (UT Austin)(https://www.ae.utexas.edu/people/faculty/faculty-directory/dawson)
+* Michael Sacks (UT Austin)(https://www.bme.utexas.edu/people/faculty-directory/sacks)
+* Ofodike Ezekoye (UT Austin)(https://www.utfireresearch.com/)
+* Robert Kirby (Baylor University)(https://sites.baylor.edu/robert_kirby/)
+* David Ham (Imperial College London)(https://www.imperial.ac.uk/people/david.ham)
+* John Shadid (University of New Mexico)(https://www.sandia.gov/ccr/staff/john-n-shadid/)
 * Leticia Ramirez-Ramirez (Center for mathematical investigation, Mexico)
 
 ### **Postdoctoral Researchers**
@@ -37,6 +37,6 @@ TorchFire strategically synergizes decades of developing machine learning librar
 * TBA
 
 ### **Applications**
+* perform state-of-the-art scientific machine learning for an important application in magnetohydrodynamics (MHD)
+* sensing-based disciplines including geophysical imaging, groundwater hydrology, biomedical imaging, inverse wave propagations, and inverse problems in various engineering and scientific applications
 
-* Forward and inverse seismic wave propagation
-* Forward and inverse problems associated with MHD
