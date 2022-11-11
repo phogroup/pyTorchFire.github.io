@@ -37,6 +37,9 @@ TorchFire strategically synergizes decades of developing machine learning librar
 * TBA
 
 ### **Applications**
-* perform state-of-the-art scientific machine learning for an important application in magnetohydrodynamics (MHD)
-* sensing-based disciplines including geophysical imaging, groundwater hydrology, biomedical imaging, inverse wave propagations, and inverse problems in various engineering and scientific applications
+
+Performing state-of-the-art scientific machine learning for 
+
+* Magnetohydrodynamics (MHD)
+* Sensing-based disciplines including geophysical imaging, groundwater hydrology, biomedical imaging, inverse wave propagations, and inverse problems in various engineering and scientific applications
 
