@@ -59,12 +59,12 @@ $$
 <p align="center">
 <img src="assets/figures/Heat_eq/Mixed.png" width="500" height="300" >
 <figcaption><b>Figure 1: Training loss and test accuracy versus the training epochs<figcaption>
-</p>
+<p>
 
 <p align="center">
 <img src="assets/figures/Heat_eq/Animations.gif">
 <figcaption><b>Figure 2: (Left) conductivity field, (Middle) Predicted solution obtained by TorchFire neural network, (Right) True solution obtained by Firedrake software <figcaption>
-</p>
+<p>
 
 #### *Demo code, TorchFire*
 
