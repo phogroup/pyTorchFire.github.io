@@ -57,16 +57,17 @@ $$
 
 #### *Results: comparison of solutions by Firedrake and TorchFire neural network*
 <p align="center">
-<img src="/assets/figures/Heat_eq/Mixed.png">
+<img src="assets/figures/Heat_eq/Mixed.png" width="500" height="300" />
 <figcaption><b>Figure 1: Training loss and test accuracy versus the training epochs</figcaption>
 </p>
 
 <p align="center">
-<img src="/assets/figures/Heat_eq/Animations.gif">
+<img src="assets/figures/Heat_eq/Animations.gif">
 <figcaption><b>Figure 2: (Left) conductivity field, (Middle) Predicted solution obtained by TorchFire neural network, (Right) True solution obtained by Firedrake software </figcaption>
 </p>
 
 #### *Demo code, TorchFire*
+
 ```python
 # Step 0: Import necessary packges
 from torchfire import fd_to_torch
