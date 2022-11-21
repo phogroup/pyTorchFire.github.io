@@ -1,0 +1,11 @@
+---
+layout: base
+---
+<div class="content">
+  <h1><a class="title external" href="{{ page.address }}">{{ page.title | smartify }}</a></h1>
+  {% include dateline.html %}
+
+  {{ content }}
+
+  <a class="external" href="{{ page.address }}">Link</a>
+</div>
