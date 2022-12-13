@@ -1,3 +1,9 @@
+---
+layout: page
+mathjax: true
+title: " "
+---
+
 ## **Demos and preliminary results**
 ### Problem settings 
 #### *Solving heat equation with neural network:*

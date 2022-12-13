@@ -20,9 +20,9 @@ navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {title: "Faculty Members", file: "Faculty.md"}
   - {title: "Postdoctoral Researchers", file: "Postdoctoral_Researchers.md"}
   - {title: "Graduate Researchers", file: "Graduate_Researchers.md"}
+  - {title: "Undergraduate Researchers", file: "Undergraduate_Researchers.md"}
   - {title: "Applications", file: "Applications.md}
   - {title: "Preliminary results", file: "Preliminary_results.md"}
-  # - {title: "Undergraduate Researchers", file: "Undergraduate_Researchers.md"}
   # - {title: "Opportunities", file: "Summer_opportunities.md"}
   # - {title: "PHO-group", url: "https://phoices.netlify.app/", icon: "globe"}
 
