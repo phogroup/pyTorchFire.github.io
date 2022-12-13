@@ -22,6 +22,6 @@ $$
 ![](assets/figures/Heat_eq/Mixed.png)
 <div align="center"><figcaption><b>Figure 1: Training loss and test accuracy versus the training epochs<figcaption><div align="center">
 
-![](assets/figures/Heat_eq/Animations.gif)
+![](assets/figures/Heat_eq/Animation_sample.jpg)
 
 <div align="center"><figcaption><b>Figure 2: (Left) conductivity field, (Middle) True solution obtained by Firedrake software, (Right) Predicted solution obtained by TorchFire neural network<figcaption><div align="center">

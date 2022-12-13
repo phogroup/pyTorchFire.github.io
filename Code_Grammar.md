@@ -19,4 +19,4 @@ predicted by the neural network, respectively) with size (nx + 1) × (ny + 1) = 
 
 ### Code example for solving hear equation demos
 
-![Name](assets/Code_Heat_eq.png)
+![Name](assets/Code_Heat_eq.jpg)
