@@ -1,5 +1,5 @@
 ---
-layout: index
+layout: page
 mathjax: true
 title: " "
 ---
@@ -7,7 +7,9 @@ title: " "
 # Code Grammar Configuration
 ### Code grammar
 
-<div align="center"><img width="900" height="400" src="assets\Code_Gramar.jpg" /><div align="center">
+![Name](assets/Code_Gramar.jpg)
+
+<!-- <div align="center"><img width="900" height="400" src="assets\Code_Gramar.jpg" /><div align="center"> -->
 <div align="left"> Left column: Firedrake grammar summary used to express loss functionals within TorchFire. We define our
 domain as a union of polygonal patches, supporting unstructured hex/quad/triangle/tet meshes. The definition of entities
 and function spaces includes attributes providing additional information that aids during code-generation. Expressions can
