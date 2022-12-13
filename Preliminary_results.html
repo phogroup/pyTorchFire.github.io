@@ -4,29 +4,26 @@ mathjax: true
 title: " "
 ---
 
-<h2><strong>Demos and preliminary results</strong></h2>
-<h3>Problem settings</h3>
+<h1><strong>Demos and preliminary results</strong></h1>
+<h2>Problem settings</h2>
 <h4><em>Solving heat equation with neural network:</em></h4>
 <p>In this problem, we learn the neural network to solve for the temperature <img src="https://i.upmath.me/svg/u" alt="u" /> given arbitrary conductivity field <img src="https://i.upmath.me/svg/%5Ckappa" alt="\kappa" />. The 2D heat equation is written as follows</p>
-<p align="center"><img align="center" src="https://i.upmath.me/svg/%0A%5Cbegin%7Baligned%7D%0A%20%20%20%20%20%20%20%20%20-%5Cnabla%20%5Ccdot%20%5Cleft%20.(%20%7Be%5E%5Ckappa%20%5Cnabla%20u%7D%20%5Cright.)%20%26%20%3D%20f%20%20%5Cquad%20%5Ctext%7Bin%20%7D%20%5COmega%20%3D%20%5Cleft%20.%5B%20%7B0%2C1%7D%5E2%20%5Cright.%5D%5C%5C%0A%20%20%20%20%20%20%20%20u%20%26%20%3D%200%20%5Cquad%20%5Ctext%7B%20on%20%7D%20%5CGamma%5E%7B%5Ctext%7Bext%7D%7D%20%5C%5C%0A%20%20%20%20%20%20%20%20%5Ctextbf%7Bn%7D%20%5Ccdot%20%5Cleft.(%7Be%5E%5Ckappa%20%5Cnabla%20u%7D%5Cright.)%20%26%20%3D%200%20%5Cquad%20%5Ctext%7B%20on%20%7D%20%5CGamma%5E%7B%5Ctext%7Broot%7D%7D%2C%0A%5Cend%7Baligned%7D%0A" alt="
+<div align="center"><img align="center" src="https://i.upmath.me/svg/%0A%5Cbegin%7Baligned%7D%0A%20%20%20%20%20%20%20%20%20-%5Cnabla%20%5Ccdot%20%5Cleft%20.(%20%7Be%5E%5Ckappa%20%5Cnabla%20u%7D%20%5Cright.)%20%26%20%3D%20f%20%20%5Cquad%20%5Ctext%7Bin%20%7D%20%5COmega%20%3D%20%5Cleft%20.%5B%20%7B0%2C1%7D%5E2%20%5Cright.%5D%5C%5C%0A%20%20%20%20%20%20%20%20u%20%26%20%3D%200%20%5Cquad%20%5Ctext%7B%20on%20%7D%20%5CGamma%5E%7B%5Ctext%7Bext%7D%7D%20%5C%5C%0A%20%20%20%20%20%20%20%20%5Ctextbf%7Bn%7D%20%5Ccdot%20%5Cleft.(%7Be%5E%5Ckappa%20%5Cnabla%20u%7D%5Cright.)%20%26%20%3D%200%20%5Cquad%20%5Ctext%7B%20on%20%7D%20%5CGamma%5E%7B%5Ctext%7Broot%7D%7D%2C%0A%5Cend%7Baligned%7D%0A" alt="
 \begin{aligned}
          -\nabla \cdot \left .( {e^\kappa \nabla u} \right.) &amp; = f  \quad \text{in } \Omega = \left .[ {0,1}^2 \right.]\\
         u &amp; = 0 \quad \text{ on } \Gamma^{\text{ext}} \\
         \textbf{n} \cdot \left.({e^\kappa \nabla u}\right.) &amp; = 0 \quad \text{ on } \Gamma^{\text{root}},
 \end{aligned}
-" /></p>
+" /></div>
 <h4><em>Results: comparison of solutions by Firedrake and TorchFire neural network</em></h4>
-<p align="center">
-<img src="assets/figures/Heat_eq/Mixed.png" width="500" height="300" >
-<p>
+<div align="center"><img width="500" height="300" src="assets/figures/Heat_eq/Mixed.png"><div align="center">
 <h4><center>Figure 1: Training loss and test accuracy versus the training epochs</center></h4>
 
-<p align="center">
-<img src="assets/figures/Heat_eq/Animations.gif" width="1050" height="320">
-<p>
+<div align="center"><img width="1050" height="320" src="assets/figures/Heat_eq/Animations.gif"><div align="center">
 <h4><center>Figure 2: (Left) conductivity field, (Middle) True solution obtained by Firedrake software, (Right) Predicted solution obtained by TorchFire neural network</center></h4>
 
-<h4><em>Demo code, TorchFire</em></h4>
+<div align="left">
+<h2><em>Example code, TorchFire</em></h2>
 <pre><code class="language-python"># Step 0: Import necessary packges
 from torchfire import fd_to_torch
 import firedrake
@@ -100,3 +97,4 @@ for _ in range(nEpochs):
     train_loss = train_loop(model, optimizer, kappa_train)
     test_acc = test_loop(model, kappa_test, u_test)
 </code></pre>
+</div>
