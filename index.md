@@ -1,10 +1,11 @@
 ---
-layout: default
-title: " " 
+layout: page
+mathjax: true
+title: " "
 ---
 
-## <h1><center>[TorchFire](https://nguyenvanhaibk92.github.io/torch_fire.github.io/)</center></h1>
+# <div align="center">[TorchFire](https://github.com/phogroup/pyTorchFire.github.io)</div>
 
-<p align="center"><img width="700" height="300" src="assets\front_fig.jpg" /></p>
+<div align="center"><img width="700" height="300" src="assets\front_fig.jpg" /><div align="center">
 
-TorchFire strategically synergizes decades of developing machine learning libraries with scientific computation platforms to construct a SciMLCI that is equally appealing to experts in numerical methods, computer science, statistics, and domain scientists/engineers for their SciML research
+<div align="left">TorchFire strategically synergizes decades of developing machine learning libraries with scientific computation platforms to construct a SciMLCI that is equally appealing to experts in numerical methods, computer science, statistics, and domain scientists/engineers for their SciML research<div align="center">

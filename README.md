@@ -4,7 +4,7 @@ mathjax: true
 title: " "
 ---
 
-## <div align="center">[TorchFire](https://nguyenvanhaibk92.github.io/torch_fire.github.io/)</div>
+# <div align="center">[TorchFire](https://github.com/phogroup/pyTorchFire.github.io)</div>
 
 <div align="center"><img width="700" height="300" src="assets\front_fig.jpg" /><div align="center">
 
