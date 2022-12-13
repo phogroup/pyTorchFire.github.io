@@ -1,1 +1,35 @@
-theme: jekyll-theme-cayman
+title: "Hai Van Nguyen"
+author: "Van Hai Nguyen"
+description: "The University of Texas at Austin"
+permalink: /:title/
+lang: "en"
+excerpt_separator: "\n\n\n"
+date_format: "%B %d, %Y"
+
+# Layout
+show_social: true           # show social links in the footer
+show_excerpts: true        # show article excerpts on the home page
+show_frame: true           # adds a gray frame to the site
+show_sidebar: true        # show a sidebar instead of the usual header
+minimal: false             # use a dark header
+baseurl: /
+
+# Menu
+navigation:                # accepts {file, title, url, icon, sidebaricon}
+  - {title: "Home", icon: "home", file: "index.md"}
+  - {title: "Publications", file: "README.md"}
+  - {title: "Research Projects", file : "research.html"}
+  - {title: "CV", file: "CV.html"}
+  - {title: "PHO-group", url: "https://phoices.netlify.app/", icon: "globe"}
+
+external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
+  - {title: Mail, icon: envelope, url: "mailto:hainguyen@utexas.edu"}
+  - {title: Github, icon: github, url: "https://github.com/nguyenvanhaibk92"}
+  - {title: Linkedin, icon: linkedin, url: "https://www.linkedin.com/in/hai-van-nguyen-57a715224/"}
+
+comments:
+#  disqus_shortname: ""    # see https://disqus.com/
+#  isso_domain: ""         # see https://posativ.org/isso/
+
+plugins:
+ - jekyll-feed

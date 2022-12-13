@@ -1,9 +1,14 @@
 ---
-layout: base
+layout: default
 ---
-<div class="content">
-  <h1><a class="title" href="{{ page.url }}">{{ page.title | smartify }}</a></h1>
-  {% include dateline.html %}
 
+<article>
+  {% include meta.html post=page %}
   {{ content }}
-</div>
+  {% if page.comments != false and site.comments.isso or site.comments.disqus %}
+    <hr>
+    {% if site.comments.isso_domain %}<div id="isso-thread"></div>{% endif %}
+    {% if site.comments.disqus_shortname %}<div id="disqus_thread"></div>{% endif %}
+    <noscript>Please enable JavaScript to view comments.</noscript>
+  {% endif %}
+</article>
