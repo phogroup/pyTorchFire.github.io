@@ -29,6 +29,7 @@ $$
 <figcaption><b>Figure 2: (Left) conductivity field, (Middle) True solution obtained by Firedrake software, (Right) Predicted solution obtained by TorchFire neural network<figcaption>
 <p>
 
+
 #### *Demo code, TorchFire*
 
 ```python
