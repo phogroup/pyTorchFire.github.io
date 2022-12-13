@@ -19,7 +19,7 @@ predicted by the neural network, respectively) with size (nx + 1) × (ny + 1) = 
 
 ### Code example for solving hear equation demos
 
-```python
+```{python}
 # Step 0: Import necessary packges
 from torchfire import fd_to_torch
 import firedrake
