@@ -23,6 +23,7 @@ navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {title: "Undergraduates", file: "Undergraduate_Researchers.md"}
   - {title: "Opportunities", file: "Summer_opportunities.md"}
   - {title: "Demos", file: "Preliminary_results.html"}
+  - {title: "PseudoCode", file: "Code_Grammar.md"}
   - {title: "Applications", file: "Applications.md"}
   - {title: "PHO-group", url: "https://phoices.netlify.app/", icon: "globe"}
 

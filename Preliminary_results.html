@@ -23,79 +23,8 @@ title: " "
 <div align="center"><img width="1050" height="320" src="assets\figures\Heat_eq\Animations.gif"></div>
 <h4><center>Figure 2: (Left) conductivity field, (Middle) True solution obtained by Firedrake software, (Right) Predicted solution obtained by TorchFire neural network</center></h4>
 
-<div align="left">
-<h2><em>Example code, TorchFire</em></h2>
-<pre><code class="language-python"># Step 0: Import necessary packges
-from torchfire import fd_to_torch
-import firedrake
-import torch
-from torch import nn
-import pandas
 
-# Step 1: Load train and test data
-kappa_train, kappa_test, u_test = pandas.read_csv(...).to_numpy()
-
-# Step 2: TorchFire physic module
-## Firedrake Mesh and Space definition
-nx, ny = 15, 15
-mesh = UnitSquareMesh(nx, ny)
-V = FunctionSpace(mesh, &quot;P&quot;, 1)
-
-## Boudary connditions
-bc = DirichletBC(V, 0, (1, 2, 3))
-## Weak form definition
-def assemble_firedrake(u, kappa):
-    x = SpatialCoordinate(mesh)
-    v = TestFunction(u.function_space())
-    f = Constant(20.0)
-    return assemble(inner(exp(kappa) * grad(u), grad(v)) * dx - inner(f, v) * dx, bcs=bc)
+<h1><div align="center"> <a href="https://github.com/phogroup/pyTorchFire.github.io">TorchFire</a> <div align="center"></h1>
+    <div align="center"><img width="700" height="300" src="assets\front_fig.jpg" /><div align="center">
+    <div align="left"> TorchFire strategically synergizes decades of developing machine learning libraries with scientific computation platforms to construct a SciMLCI that is equally appealing to experts in numerical methods, computer science, statistics, and domain scientists/engineers for their SciML research<div>
     
-## Torchfire wrapper for assemble_firedrake
-templates = (firedrake.Function(V), firedrake.Function(V))
-residualTorch = fd_to_torch(assemble_firedrake, templates, &quot;residualTorch&quot;).apply
-
-# Step 3: Neural network model
-class NeuralNetwork(nn.Module):
-    def __init__(self, kappa_dim, u_dim, neurons):
-        super(NeuralNetwork, self).__init__()
-        self.Neuralmap1 = nn.Linear(kappa_dim, neurons)
-        self.Relu = nn.ReLU()
-        self.Neuralmap2 = nn.Linear(neurons, u_dim)
-        self.MSE = nn.MSELoss()
-
-    def forward(self, kappa):
-        u = self.Neuralmap2(self.Relu(self.Neuralmap1(kappa)))
-        return u
-        
-    def ResidualTorch(self, u, kappa):
-        residuals = residualTorch(u, kappa)
-        Physic_loss = self.MSE(residuals, torch.zeros_like(residuals))
-        return Physic_loss
-        
-model = NeuralNetwork(kappa_dim = (nx+1)*(ny+1), u_dim = (nx+1)*(ny+1), neurons = 1000)
-optimizer = torch.optim.Adam(model.parameters(), lr=1e-3)
-
-# Step 4 Define train and test function for learning
-def train_loop(model, optimizer, kappa):
-    train_loss = 0
-    for batch in range(int(num_train / batch_size)):
-        u_pred = model(kappa[(batch) * batch_size:(batch + 1) * batch_size, :])
-        residuals = model.ResidualTorch(u_pred, kappa) / batch_size
-        
-        # Backpropagation
-        optimizer.zero_grad(), residuals.backward(), optimizer.step(),
-        train_loss += residuals
-    return train_loss
-        
-def test_loop(model, kappa_test, u_test):
-    with torch.no_grad():
-        u_pred = model(kappa_test)
-        test_acc = (torch.linalg.vector_norm(u_pred - u_test, dim=-1)**2
-                    / torch.linalg.vector_norm(u_test, dim=-1)**2).mean()
-    return test_acc
-
-for _ in range(nEpochs):
-    train_loss = train_loop(model, optimizer, kappa_train)
-    test_acc = test_loop(model, kappa_test, u_test)
-</code></pre>
-</div>
