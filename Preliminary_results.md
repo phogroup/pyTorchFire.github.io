@@ -19,7 +19,9 @@ $$
 
 
 #### *Results: comparison of solutions by Firedrake and TorchFire neural network*
+
 ![](assets/figures/Heat_eq/Mixed.png)
+
 **Figure 1**: Training loss and test accuracy versus the training epochs
 
 ![](assets/figures/Heat_eq/Animation_sample.jpg)
