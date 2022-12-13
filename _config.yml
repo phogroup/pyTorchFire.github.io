@@ -17,18 +17,18 @@ baseurl: /
 # Menu
 navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {title: "Home", icon: "home", file: "README.md"}
-  - {title: "Faculty Members", file: "Faculty.md"}
-  # - {title: "Postdoctoral Researchers", file: "Postdoctoral_Researchers.md"}
-  # - {title: "Graduate Researchers", file: "Graduate_Researchers.md"}
-  # - {title: "Undergraduate Researchers", file: "Undergraduate_Researchers.md"}
-  - {title: "Applications", file: "Applications.md}
-  - {title: "Preliminary results", file: "Preliminary_results.md"}
-  # - {title: "Opportunities", file: "Summer_opportunities.md"}
-  # - {title: "PHO-group", url: "https://phoices.netlify.app/", icon: "globe"}
+  - {title: "Faculty", file: "Faculty.md"}
+  - {title: "Postdoctoral Researchers", file: "Postdoctoral_Researchers.md"}
+  - {title: "Graduate Researchers", file: "Graduate_Researchers.md"}
+  - {title: "Undergraduate Researchers", file: "Undergraduate_Researchers.md"}
+  - {title: "Opportunities", file: "Summer_opportunities.md"}
+  - {title: "Demos", file: "Preliminary_results.md"}
+  - {title: "Applications", file: "Applications.md"}
+  - {title: "PHO-group", url: "https://phoices.netlify.app/", icon: "globe"}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
-  # - {title: Mail, icon: envelope, url: "mailto:hainguyen@utexas.edu"}
-  # - {title: Github, icon: github, url: "https://github.com/rckirby/torchfire"}
+  - {title: Mail, icon: envelope, url: "mailto:hainguyen@utexas.edu"}
+  - {title: Github, icon: github, url: "https://github.com/rckirby/torchfire"}
 
 comments:
 #  disqus_shortname: ""    # see https://disqus.com/
