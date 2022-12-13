@@ -16,11 +16,11 @@ baseurl: /
 
 # Menu
 navigation:                # accepts {file, title, url, icon, sidebaricon}
-  - {title: "Home", icon: "home", file: "README.md"}
+  - {title: "Home", icon: "home", file: "index.md"}
   - {title: "Faculty", file: "Faculty.md"}
-  - {title: "Postdoctoral_Researchers", file: "Postdoctoral_Researchers.md"}
-  - {title: "Graduate_Researchers", file: "Graduate_Researchers.md"}
-  - {title: "Undergraduate_Researchers", file: "Undergraduate_Researchers.md"}
+  - {title: "Postdocs", file: "Postdoctoral_Researchers.md"}
+  - {title: "Graduates", file: "Graduate_Researchers.md"}
+  - {title: "Undergraduates", file: "Undergraduate_Researchers.md"}
   - {title: "Opportunities", file: "Summer_opportunities.md"}
   - {title: "Demos", file: "Preliminary_results.md"}
   - {title: "Applications", file: "Applications.md"}
