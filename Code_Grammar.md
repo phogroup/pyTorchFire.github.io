@@ -7,7 +7,7 @@ title: " "
 # Code Grammar Configuration
 ### Code grammar
 
-![Name](assets/Code_Gramar.jpg)
+![Name](assets/Code_Gramar.jpg){ width=80% }
 
 <!-- <div align="center"><img width="900" height="400" src="assets\Code_Gramar.jpg" /><div align="center"> -->
 <div align="left"> Left column: Firedrake grammar summary used to express loss functionals within TorchFire. We define our
