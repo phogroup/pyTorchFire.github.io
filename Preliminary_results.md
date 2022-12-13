@@ -1,4 +1,8 @@
-
+---
+layout: post
+mathjax: true
+title: " "
+---
 
 ## **Demos and preliminary results**
 ### Problem settings 

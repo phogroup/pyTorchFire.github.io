@@ -1,9 +1,3 @@
----
-layout: page
-mathjax: true
-title: " "
----
-
 ## <h1><center>[TorchFire](https://nguyenvanhaibk92.github.io/torch_fire.github.io/)</center></h1>
 
 <p align="center"><img width="300" height="300" src="assets\logo.jpg" /></p>
